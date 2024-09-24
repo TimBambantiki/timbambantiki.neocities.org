@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>My website!</title>
+</head>
+<script src="javascript.js"></script>
+<script src="jukebox.js"></script> 
+<body>
+<img id="title" src="/images/wordart.png" >    
+    <div class="grid">
+        <div class="left-column1"></div>
+        <div class="left-column2"> 
+           <div class="links"> 
+        <div  id="pages" > <img id="imgpage" src="../images/pagesimg.png"> </div>
+    <a href="../index.html"><img class="pagesimg" src="../images/homepage.gif"></a>
+    <a href="/html/blog"><img class="pagesimg" src="../images/blog.gif"></a>
+    <a href="/html/guestbook"><img class="pagesimg" src="../images/guestbook.gif"></a>
+    <a href="/html/contacts"><img class="pagesimg" src="../images/contact.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cakebuttonfinal.gif"></a>
+    <a href="/html/uses"><img class="pagesimg" src="../images/uses.gif"></a>
+    <a href="/html/licenses"><img class="pagesimg" src="../images/licenses.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cakebuttonfinal.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cakebuttonfinal.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cakebuttonfinal.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cakebuttonfinal.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cakebuttonfinal.gif"></a>
+
+</div>
+<div>
+    <a href="https://en.wikipedia.org/wiki/Tux_(mascot)"><img id="tux" src="/images/tux-linux.gif" width="100%" height="width"></a>
+    </div>
+    <div class="links"> 
+    <a href="https://www.gnu.org/"><img class="pagesimg" src="../images/IMG_0255.GIF"></a>
+    <a href="https://www.mozilla.org/en-US/firefox/new/"><img class="pagesimg" src="../images/firefox.gif"></a>
+    <a href="/html/guestbook"><img class="pagesimg" src="../images/openeyes.gif"estb></a>
+    <a href="https://neocities.org/"><img class="pagesimg" src="../images/webddesignpassion.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/catscape.gif"></a>
+    <a href="http://info.cern.ch/hypertext/WWW/TheProject.html"><img class="pagesimg" src="../images/www.gif"></a>
+    <a href="https://neocities.org/"><img class="pagesimg" src="../images/webisurs.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/cookiefree.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/vscode.jpg"></a>
+    <a href="https://www.youtube.com/@LinusTechTips"><img class="pagesimg" src="../images/ltt.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/netscape.gif"></a>
+    <a href="/html/cake"><img class="pagesimg" src="../images/web3.gif"></a>
+
+</div>
+        </div>
+        <div class="middle-column">
+<div class="middle-column-content">
+<h1 class="headingmain">Welcome!</h1>
+<hr>
+<p>
+Welcome to my website! It is still a work in progress and a lot of stuff doesnt work. I'm mostly gonna use this site for the blog and to learn HTML and CSS. I hope you enjoy your stay here!   
+</p>
+<hr>
+<h2>About me</h2>
+<p></p>
+</div>
+<div class="middle-column-buttons">
+    
+</div>
+</div>
+<div class="right-column1">
+    <div class="stats">
+        <p>You are visitor #<span id="hitcount"></span>!</p>
+        <p>Last Updated: <span id="lastupdate"></span></p>
+    </div>
+        <div class="changelog">
+            <h1>Changelog</h1>
+            <hr>
+             <p>21/9/24</p> 
+             <p>added pretty much everything you see :D</p>  
+             <hr>
+        </div>
+<div>
+    <div class="jukebox">
+        <button class="activate"><img src="images/mcjukebox.png" width="70%"></button>
+        <marquee>
+          <marquee scrollmount="1"> 
+            <p id="marq">select a song!</p>
+          </marquee>
+      </marquee>
+        <ul>
+          <button class="musicbutton" id="stopbutton" onclick="stopmusic()" >■stop music■</button>
+          
+          <li><button class="musicbutton" value="0" onclick="playsong()">crumblin_down.mp3	
+            <audio ><source src="https://media-upload.net/uploads/5S9FeDnNyrOE.mp3" type="audio/mp3"></audio>
+          </button ></li>
+          <li><button class="musicbutton" value="1" onclick="playsong()">dragula.mp3
+            <audio ><source src="https://media-upload.net/uploads/e6gThUtmqE2z.mp3" type="audio/mp3"></audio>
+          </button></li>
+          <li><button class="musicbutton" value="2" onclick="playsong()">have_you_ever_seen_the_rain.mp3
+            <audio ><source src="https://media-upload.net/uploads/gTKMVftE8oCu.mp3" type="audio/mp3"></audio>
+          </button></li>
+          <li><button class="musicbutton" value="3" onclick="playsong()">i_hate_myself_for_loving_you.mp3
+            <audio><source src="https://media-upload.net/uploads/TRNy3ljbSKXa.mp3" type="audio/mp3"></audio>
+          </button></li>
+          <li><button class="musicbutton" value="4" onclick="playsong()">i_would_walk_500_miles.mp3
+            <audio><source src="https://media-upload.net/uploads/KGSmbhNQCsfF.mp3" type="audio/mp3"></audio>
+          </button></li>
+         </ul>
+         <script src="marquee.js"></script>
+       </div> 
+
+
+</div>        
+    </div>
+    <div class="right-column2">
+</div>
+</div>
+</body>
+</html>

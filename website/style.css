@@ -1,0 +1,146 @@
+*{
+font-family: 'Courier New', Courier, monospace ;
+}
+body {
+  background-image: url(../images/wall_06.gif);
+  margin: 0; 
+}
+#title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 15% 14% 1fr 14% 15%;
+  grid-template-rows: auto;
+}
+.left-column1 {
+  background-color: rgba(72, 74, 204, 0);
+}
+.left-column2 {
+  background-color: rgba(200, 72, 204, 0);
+  position: sticky;
+  top: 2%;
+  align-self: start;
+  padding-right: 20px; 
+}
+.right-column1 {
+  background-color: rgba(72, 74, 204, 0);
+  position: sticky;
+  top: 2%;
+  align-self: start;
+  padding-left: 20px; 
+}
+.right-column2 {
+  background-color: rgba(72, 74, 04, 0);
+}
+.middle-column {
+  background-color: tomato;
+  padding: 20px;
+  border-radius: 25px;
+}
+.middle-column-content {
+  max-height: fit-content;
+  min-height: fit-content;
+}
+.middle-column-buttons {
+background-color: rgba(0, 128, 128, 0.829);
+border-radius: 25px;
+max-height: fit-content;
+max-width: fit-content;
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center; 
+}
+.headingmain {
+height: 20px;
+}
+.links{
+  background-color: rgba(0, 128, 128, 0.829);
+  border-radius: 25px;
+  max-height: fit-content;
+  max-width: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pagesimg{
+  height: 30px;
+  width: 81px;
+  margin: 2px;
+}
+#pages { 
+  margin-left: auto;
+  margin-right: auto ;
+  display: inline-block  ;
+}
+#imgpage {
+width: 100%;  
+}
+#tux {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+}
+.stats {
+  background-color: rgba(0, 128, 128, 0.829);
+  border-radius: 25px;
+  max-height: fit-content;
+  width: 100%;
+  padding: 10px;
+}
+.stats p{
+text-align: center;  
+}
+.changelog {
+  background-color: rgba(0, 128, 128, 0.829);
+  border-radius: 25px;
+  max-height: 200px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+.changelog p {
+  text-align: center; 
+}
+.changelog h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.jukebox {
+  position: relative;
+}
+.jukebox ul {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 128, 128, 0.829);
+  border-radius: 15px;
+  left: 0px;
+  top: 0px;
+  border: 5px;
+  border-color: blueviolet;
+
+}
+.jukebox:hover ul,.activate:focus + ul, .jukebox:focus-within > ul {
+  display: inline-block;
+}
+
+.activate {
+background-color: rgba(255, 255, 255, 0);
+border: none;
+}
+.musicbutton {
+background-color: rgba(0, 128, 128, 0);
+border: 20px;
+border-color: blueviolet;
+font-size: 1rem;
+}
